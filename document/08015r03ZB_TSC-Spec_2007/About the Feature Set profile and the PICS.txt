@@ -1,0 +1,26 @@
+The ZigBee Feature Set Profiles (also 'Stack Profiles')
+
+These cover the functionalities that represent the respective feature set. They need to be implemented as 
+written in order to assure interoperability.
+
+The ZigBee specification has a number of options, which, if exercised in different ways by different vendors, 
+will hamper both compliance testing activities and future product interoperability. The Feature Set profiles, 
+which are, for the most part, a set of restrictions on the Protocol Implementation Conformance Statement (PICS) 
+documents corresponding to the three main sub-clauses of the specification, further restricts those options so 
+as to promote interoperability and testability.
+
+Purpose
+This document defines the knobs settings, functional description and PICS for devices conforming to this stack 
+profile, and is intended as the foundation for the platform compliance test plan that stack providers must pass 
+in order to certify their products as ZigBee compliant. 
+
+Protocol Implementation Conformance Statement (PICS)
+
+The protocol implementation conformance statement (PICS) of a protocol implementation is a statement of which 
+capabilities and options of the protocol have been implemented. The statement is in the form of answers to a set 
+of questions in the PICS proforma. The questions in a proforma consist of a systematic list of protocol 
+capabilities and options as well as their implementation requirements. The implementation requirement indicates 
+whether implementation of a capability is mandatory, optional, or conditional depending on other options selected. 
+When a protocol implementer answers questions in a PICS proforma, they would indicate whether an item is 
+implemented or not, and provide explanations if an item is not implemented.
+
